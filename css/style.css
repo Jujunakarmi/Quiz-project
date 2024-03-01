@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 a {
@@ -57,18 +56,18 @@ p {
     font-weight: bolder;
     font-size: 20px;
     cursor: pointer;
-    background-color: purple;
+    background-color: #0892d0;
     color: aliceblue;
     border-radius: 50px;
 
 }
 
 li {
-    background-color: purple;
+    background-color: #0892d0;
     margin-top: 10px;
     margin-right: 300px;
     padding: 5px 15px;
-    width: 40%;
+    width: 30%;
     font-size: 18px;
     color: white;
     border-radius: 50px;
@@ -82,7 +81,7 @@ li {
 }
 
 #submit-btn {
-    background-color: purple;
+    background-color: #0892d0;
     margin-left: 33%;
     margin-top: 20px;
     padding: 15px 32px;
@@ -92,6 +91,6 @@ li {
     border-radius: 50px;
 }
 
-#text1{
-    width:300px;
+#text1 {
+    width: 300px;
 }

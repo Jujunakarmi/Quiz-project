@@ -8,7 +8,7 @@ var questions = [
     },
 
     {
-        titles: "Who is the vocalist if band Nirvana?",
+        titles: "Who is the vocalist of band Nirvana?",
         choices: ["Kurt Cobain", "Dave Grohl", "Alice Cooper", "Axl Roses"],
         answer: "Kurt Cobain"
 
@@ -182,6 +182,51 @@ function allDone(){
 
     questionDiv.append(submit)
 
+//Event listener for submit btn
 
+
+
+submit.addEventListener("click",function(){
+    
+    
+    var nameInput= typeText.value
+
+    if(!nameInput){
+        alert("You must enter a name.!!")
+    }else{
+        var finalScore= {
+        name : nameInput,
+        score : timeLeft}
+        console.log(finalScore)
+    }
+    
+    var displayScore = localStorage.getItem("displayScore")
+
+    if (displayScore === null){
+        displayScore = [];
+    }else{
+        displayScore =JSON.parse(displayScore)
+    }
+
+    displayScore.push(finalScore);
+
+    var newScore = JSON.stringify(displayScore)
+
+    localStorage.setItem("displayScore",newScore)
+
+})
 
 }
+
+
+
+//var finalMarks = document.getElementById("finalmarks")
+
+    // questionDiv.append(finalMarks)
+
+    //  var getName =localStorage.getItem("saved")
+    //  if(getName){
+    //     finalMarks.textContent= finalScore
+    //  }
+   
+    //   localStorage.setItem("savedName",nameInput)   
