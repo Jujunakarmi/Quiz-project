@@ -192,7 +192,7 @@ submit.addEventListener("click",function(){
     
     var nameInput= typeText.value
 
-    if(!nameInput){
+    if(nameInput===null){
         alert("You must enter a name.!!")
     }else{
         var finalScore= {
@@ -234,16 +234,3 @@ submit.addEventListener("click",function(){
 })
 
 }
-
-
-
-//var finalMarks = document.getElementById("finalmarks")
-
-    // questionDiv.append(finalMarks)
-
-    //  var getName =localStorage.getItem("saved")
-    //  if(getName){
-    //     finalMarks.textContent= finalScore
-    //  }
-   
-    //   localStorage.setItem("savedName",nameInput)   

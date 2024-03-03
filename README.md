@@ -2,7 +2,7 @@
 # Description
 This quiz application is very fun to play. It will ask you five question and you have 75s seconds to complete all the question. If you get the answers wrong you will have penalty time of 15 second. You have five fun questions to answer. Give yourself a try and have fun with the application.
 
-You can play the quiz: [Click here to Quiz]()
+You can play the quiz: [Click here to Quiz](https://jujunakarmi.github.io/Quiz-project/)
 
 Here are some of the screenshots:
 ![First page of screenshot](./images/Screenshot-1.png)

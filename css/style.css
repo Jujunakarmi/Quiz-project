@@ -11,7 +11,7 @@
 a {
     font-size: 30px;
     color: black;
-    border: 2px solid black;
+    border: 2px solid;
     text-decoration: none;
 }
 
@@ -113,33 +113,58 @@ li {
 
 #scoreLi{
     background-color: none;
-    width:400px;
+    width:300px;
      margin-bottom: 20px;
      text-align: center;
      margin-left: 40px;
-     height: 40px
+     height: 40px;
 }
 
-#highscore{
-    background-color: #0892d0;
-    border: none;
-    color: aliceblue;
-    border-radius: 50px;
-    font-size: 25px;
-    padding: 10px;
-    position: absolute;
-    left: 760px;
-    top:600px;
+
+ /* Media screen query*/
+@media screen and (min-width:320px){
+a{
+    margin: 50px;
+ }
+
+ div #questionDiv{
+width: 300px;
+ }
+
+ #startTime {
+   position: relative;
+   left:50px
+}
+#scoreLi{
+    width: 220px;
+}
+ }
+
+
+ /* for 325*/
+ @media screen and (min-width:375px){
+    div #questionDiv{
+        width: 335px;
+        margin-right: 10px;
+ }
+ #startTime {
+    position: relative;
+    left:50px
 }
 
-#back{
-        background-color: #0892d0;
-        border: none;
-        color: aliceblue;
-        border-radius: 50px;
-        font-size: 25px;
-        padding: 10px;
-        position: absolute;
-        left: 500px;
-        top:600px;
+ }
+
+ /*for 425px*/
+ @media screen and (min-width:425px){
+    div #questionDiv{
+        width: 390px;
+        margin-right: 10px;
+ }
+ #startTime {
+    position: relative;
+    left:50px
 }
+a{
+    margin: 100px;
+ }
+ }
