@@ -80,7 +80,7 @@ li {
     border-top: 1px solid lightgray;
 }
 
-#submit-btn {
+#submit-btn{
     background-color: #0892d0;
     margin-left: 33%;
     margin-top: 20px;
@@ -93,4 +93,25 @@ li {
 
 #text1 {
     width: 300px;
+}
+
+.clearHigh, .goBack{
+    background-color: #0892d0;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 15px 32px;
+    font-size: 20px;
+    margin-left: 30px;
+  
+
+}
+
+#scoreLi{
+    background-color: none;
+    width:400px;
+     margin-bottom: 20px;
+     text-align: center;
+     margin-left: 40px;
+     height: 40px
 }

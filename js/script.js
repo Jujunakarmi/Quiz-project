@@ -46,10 +46,10 @@ var timer = document.getElementById("startTime")
 var questionDiv = document.getElementById("questionDiv")
 var wrapper = document.getElementById("wrapper")
 
-var timeLeft = 100;
+var timeLeft = 75;
 var intervalTime = 0;
 var penalty = 10;
-var ulCreate = document.createElement("ul");
+
 
 
 timer.addEventListener("click", function () {
@@ -70,6 +70,7 @@ timer.addEventListener("click", function () {
 
 
 //functions for question and answers
+var ulCreate = document.createElement("ul");
 
 function render(questionIndex) {
     questionDiv.innerHTML = "";
@@ -200,19 +201,35 @@ submit.addEventListener("click",function(){
         console.log(finalScore)
     }
     
-    var displayScore = localStorage.getItem("displayScore")
+    var displayScore = JSON.parse(localStorage.getItem("displayScore")) || []
 
-    if (displayScore === null){
-        displayScore = [];
-    }else{
-        displayScore =JSON.parse(displayScore)
-    }
+    // if (displayScore === null){
+    //     displayScore = [];
+    // }else{
+    //     displayScore =JSON.parse(displayScore)
+    // }
 
     displayScore.push(finalScore);
 
     var newScore = JSON.stringify(displayScore)
 
     localStorage.setItem("displayScore",newScore)
+
+    // questionDiv.innerHTML = ``
+    // var ol=document.createElement("ol")
+    
+    // console.group(displayScore)
+    // for(let i=0; i< displayScore.length; i++){
+       
+    //  var li=document.createElement("li")
+    
+    // li.textContent="Name: "+displayScore[i].name+"    Score: "+displayScore[i].score
+
+    // ol.appendChild(li)
+    
+    // }
+    // questionDiv.appendChild(ol)
+    location.replace("highscore.html")
 
 })
 
