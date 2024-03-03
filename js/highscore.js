@@ -12,10 +12,6 @@ if (displayScore === null) {
 }
 
 
-
-
-
-
 var ol = document.createElement("ol")
 
 console.group(displayScore)

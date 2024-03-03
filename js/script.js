@@ -2,33 +2,33 @@
 
 var questions = [
     {
-        titles: "What guitar does David Gilmour famously use?",
+        titles: "Q. What guitar does David Gilmour famously use?",
         choices: ["Fender", "Gibson", "Martin", "Dean"],
         answer: "Fender"
     },
 
     {
-        titles: "Who is the vocalist of band Nirvana?",
+        titles: "Q. Who is the vocalist of band Nirvana?",
         choices: ["Kurt Cobain", "Dave Grohl", "Alice Cooper", "Axl Roses"],
         answer: "Kurt Cobain"
 
     },
 
     {
-        titles: "Who is the vocalist of band Alice In Chains?",
+        titles: "Q. Who is the vocalist of band Alice In Chains?",
         choices: ["Layne Staley", "Jim Morrision", "Jeff Buck", "Slash"],
         answer: "Layne Staley"
 
     },
     {
-        titles: "Which guitar does Slash uses most?",
+        titles: "Q. Which guitar does Slash uses most?",
         choices: ["Les Paul", "Telecaster", "Stratocaster", "king V"],
         answer: "Les Paul"
 
     },
 
     {
-        titles: "Who sang Roadhouse Blues?",
+        titles: "Q. Who sang Roadhouse Blues?",
         choices: ["Johnny Deep", "John Lennon", "Jim Morrision", "Johnny Cash"],
         answer: "Jim Morrision"
 
