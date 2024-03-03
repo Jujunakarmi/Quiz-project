@@ -5,11 +5,11 @@ This quiz application is very fun to play. It will ask you five question and you
 You can play the quiz: [Click here to Quiz]()
 
 Here are some of the screenshots:
-![First page of screenshot](../images/Screenshot-1.png)
-![Second page of screenshot](../images/Screenshot-2.png)
-![Third page of screenshot](../images/Screenshot-3.png)
-![Forth page of screenshot](../images/Screenshot-4.png)
-![Fifth page of screenshot](../images/Screenshot-5.png)
+![First page of screenshot](./images/Screenshot-1.png)
+![Second page of screenshot](./images/Screenshot-2.png)
+![Third page of screenshot](./images/Screenshot-3.png)
+![Forth page of screenshot](./images/Screenshot-4.png)
+![Fifth page of screenshot](./images/Screenshot-5.png)
 
 
 # Usage
